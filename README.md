@@ -13,12 +13,12 @@ Students often struggle to digest lengthy textbook materials, identify high-prio
 
 ```mermaid
 flowchart TD
-    A[👨‍🎓 Student / User] -->|1. Enters Query or Uploads PDF| B[💻 Streamlit Frontend]
-    B -->|2. Extracts Text| C[📄 PyPDF Parser]
-    C -->|3. Augmented Context + Prompt| D[⚡ Groq Cloud API]
-    D -->|4. High-Speed Inference| E[🧠 LLM Engine]
-    E -->|5. Structured Output| B
-    B -->|6. Renders Study Plan / Quiz / QA| A
+    A["Student / User"] -->|"1. Enters Query / Uploads PDF"| B["Streamlit Frontend"]
+    B -->|"2. Extracts Document Text"| C["PyPDF Parser"]
+    C -->|"3. Augmented Context + Prompt"| D["Groq Cloud API"]
+    D -->|"4. Fast Inference"| E["LLM Engine"]
+    E -->|"5. Formatted JSON / Text"| B
+    B -->|"6. Renders Study Plan / Quiz / QA"| A
 ```
 
 ---
