@@ -1,5 +1,8 @@
 # 🎓 GenAI Learning Mentor
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://genailearningassistant-ycz4vmftit6gjnsfrysbem.streamlit.app/)
+🔗 **Live Application:** [Launch GenAI Learning Mentor](https://genailearningassistant-ycz4vmftit6gjnsfrysbem.streamlit.app/)
+
 > An intelligent academic tutoring and revision system powered by Retrieval-Augmented Generation (RAG) and high-speed LLM inference to assist university engineering students in mastering coursework and preparing for university examinations.
 
 ---
