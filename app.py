@@ -7,7 +7,8 @@ from pypdf import PdfReader
 # 1. Page Configuration & Theme
 st.set_page_config(page_title="GenAI Learning Mentor", page_icon="🎓", layout="wide")
 load_dotenv()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+api_key = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
+client = Groq(api_key=api_key)
 
 # 2. Sidebar: Document Upload (RAG Data Source)
 st.sidebar.title("📚 Course Materials")
